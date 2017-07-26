@@ -1,0 +1,155 @@
+header{
+  height: 20vh;
+}
+.header{
+  height: 13vh;
+  display: flex;
+  align-items: center;
+}
+.headerLogo{
+  height: 8vh;
+
+}
+h1, h2, h3, h4, h5{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+}
+nav{
+  height: 7vh;
+  background-color: #894ef1;
+  border: 1px solid #642d94;
+}
+nav .menu li a{
+  color: white;
+  font-size: 19px;
+}
+main{
+  color: #5b5b5b;
+}
+.text-medium{
+  font-size: 1.4em;
+  text-align: justify;
+}
+.text-morado{
+  color: #4e00cc;
+}
+.info-invitados h2, .info-publico h2{
+  text-transform: uppercase;
+  font-family: 'Francois One', sans-serif;
+}
+.info-invitados h2{
+  background-color: #ffb81d;
+  color: white;
+}
+.info-publico h2{
+  background-color: #00bdfc;
+  color: white;
+}
+article{
+  margin: 40px 0px 40px;
+}
+#informacion p{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  margin:0 auto;
+}
+.caja-informacion{
+  background-color: #3e216f;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.caja-informacion ul{
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#main{
+  height: 65vh;
+  background: url(../img/fondo-1.svg) no-repeat top,
+  url(../img/fondo-2.svg) no-repeat bottom;
+  overflow: hidden;
+}
+#bloq1{
+  margin: 0;
+  padding: 0;
+}
+.portadaCaballo{
+  height: 55%;
+  margin: 0;
+}
+.mascotas{
+  height: 64vh;
+}
+.fecha{
+  margin-top: 8vh;
+  margin-left: -30px;
+}
+.img-izq{
+  float: left;
+}
+/*=================================  Programa  ==============================*/
+#programa{
+  margin: 30px 0 30px;
+}
+.barra-programa{
+  background-color: #95c11f;
+}
+.barra-programa h4{
+  color: white;
+}
+.pony{
+  background-color: #ffb81d;
+  color: white;
+}
+
+/*===================================  Expositores  ============================================*/
+#expositores, #patrocinadores{
+  margin-top: 40px;
+}
+.presencia{
+background-color: #432e8a;
+color: #ffb81d;
+padding: 10px;
+border-radius: 8px;
+font-weight: bold;
+}
+.beneficios{
+  margin-top: 20px;
+}
+.footer{
+  background-color: #854de0;
+  color: white;
+  padding: 20px 0px;
+}
+#footer-principal{
+display: flex;
+align-items: center;
+height: 15vh;
+border-top: 1px solid #6e6b6c;
+border-bottom: 10px solid #854de0;
+background-color:#e4e4e4 ;
+}
+#footer-principal .cinta{
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+}
+#footer-principal .cinta img{
+  height:100px;
+  width: 250px;
+}
+.slick-slide img{
+  width: 100%;
+  margin: 0 40px;
+}
+.slick-prev:before,
+.slick-next:before{
+    color: black;
+}
